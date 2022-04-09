@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WingProtecter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWingProtect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CWingProtect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64archtraits_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64assembler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64builder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64compiler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64emithelper_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64emitter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64formatter_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64func_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64globals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64instapi_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64instdb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64instdb_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64operand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64rapass_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\a64utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\armformatter_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\armglobals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm\armoperand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\api-build_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\api-config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\archcommons.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\archtraits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\assembler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\builder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\codebuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\codeholder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\codewriter_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\compiler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\compilerdefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\constpool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\cpuinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\emithelper_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\emitter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\emitterutils_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\environment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\errorhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\formatter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\formatter_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\funcargscontext_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\globals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\inst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\jitallocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\jitruntime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\misc_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\operand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\osutils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\osutils_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\raassignment_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\rabuilders_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\radefs_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\ralocal_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\rapass_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\rastack_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\target.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\virtmem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\zone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\zonehash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\zonelist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\zonestack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\zonestring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\zonetree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core\zonevector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86archtraits_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86assembler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86builder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86compiler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86emithelper_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86emitter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86formatter_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86func_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86globals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86instapi_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86instdb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86instdb_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86opcode_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86operand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86rapass_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\a64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\arm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\asmjit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\asmjit-scope-begin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\asmjit-scope-end.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\basic_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
