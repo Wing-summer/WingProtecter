@@ -300,4 +300,29 @@
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\pics\layout1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pics\layout2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pics\main1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pics\main2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pics\peinfo1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\pics\peinfo2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

@@ -69,7 +69,7 @@ namespace WingProtect
 		/// <summary>
 		/// 使用花指令
 		/// </summary>
-		FakeCodeProtect = 8,
+		JunkCode = 8,
 		/// <summary>
 		/// 使用压缩壳
 		/// </summary>
@@ -81,7 +81,7 @@ namespace WingProtect
 		/// <summary>
 		/// 使用全部保护
 		/// </summary>
-		AllProtect = XOREncrypt | IATEncrypt | TLSEncrypt | FakeCodeProtect | Compress
+		AllProtect = XOREncrypt | IATEncrypt | TLSEncrypt | JunkCode | Compress
 	};
 
 	enum class ParserError

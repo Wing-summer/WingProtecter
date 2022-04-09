@@ -351,7 +351,7 @@ namespace WingProtect
 		auto ret = TRUE;
 		auto reloc = peinfo.OptionalHeaderDllCharacteristics & IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE;
 		auto antidebug = ProtectionsHasFlag(protections,Protections::AnitDebug);
-		auto fakecode = ProtectionsHasFlag(protections, Protections::FakeCodeProtect);
+		auto fakecode = ProtectionsHasFlag(protections, Protections::JunkCode);
 
 		if (EnableIATEncrypt && ProtectionsHasFlag(protections, Protections::IATEncrypt))
 		{

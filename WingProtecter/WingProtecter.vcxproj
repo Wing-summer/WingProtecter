@@ -238,6 +238,17 @@
     <ClInclude Include="Includes\basic_types.h" />
     <ClInclude Include="Includes\export.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\pics\layout1.png" />
+    <Image Include="..\pics\layout2.png" />
+    <Image Include="..\pics\main1.png" />
+    <Image Include="..\pics\main2.png" />
+    <Image Include="..\pics\peinfo1.png" />
+    <Image Include="..\pics\peinfo2.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
